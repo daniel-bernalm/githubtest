@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{geometry}
+\geometry{letterpaper, portrait, margin=1in}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem,amssymb}
+\usepackage{ragged2e}
+\usepackage[spanish, english, portuguese]{babel}
+\selectlanguage{spanish}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[all]{xy}
+\usepackage{tikz-cd}
+\usepackage{mathdots}
+\usepackage{bbm}
+\usepackage{hyperref}
+\usepackage{faktor}
+\usepackage{mathbbol}
+\usepackage{thmtools}
+\usepackage{makecell}
+
+\usepackage{multicol}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+
+
+%Common Environments
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newtcbtheorem[]{ex}{}%
+{colback=black!5,colframe=white!20!black,fonttitle=\bfseries}{th}
+
+%Citations
+\usepackage[brazilian]{backref}		% Paginas com as citações na bibl
+\usepackage[alf, abnt-repeated-author-omit=no, abnt-etal-list=0]{abntex2cite}	
+%\usepackage{biblatex}
+%%%%%%%
+
+%%%%%% Desenhos
+\usepackage{tikz}
+\usetikzlibrary{calc,patterns}
+
+\newlist{thematic}{itemize}{8}
+\setlist[thematic]{label=$\square$}
+\usepackage{pifont}
+
+
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\rep}{rep}
+\DeclareMathOperator{\img}{im}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\coker}{coker}
+\DeclareMathOperator{\Coh}{Coh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\Kom}{Kom}
+
+\usepackage{palatino}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}	
+
+\usepackage{mathpazo}
+
+\newcommand{\blank}[1]{\hspace*{#1}}
+%\usepackage{nunito}
+%\usepackage[T1]{fontenc}
+
+\title{
+\textbf{
+Algumas fórmulas
+}
+}
+\author{Daniel Bernal}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\end{document}
